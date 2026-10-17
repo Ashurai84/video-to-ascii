@@ -7,6 +7,7 @@ A free, browser-only video-to-ASCII converter and recorder with synchronized aud
 Requires Node.js 22.12 or newer and npm.
 
 ```sh
+cd frontend
 npm install
 npm run dev
 ```
@@ -14,6 +15,7 @@ npm run dev
 The production checks are:
 
 ```sh
+cd frontend
 npm run typecheck
 npm test
 npm run build
